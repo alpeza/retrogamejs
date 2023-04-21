@@ -13,6 +13,6 @@ services:
       - ./_data:/data
     ports:
       - 3000:3000
-      - 80:80
+      - 8190:80
       - 4001:4001 #optional
     restart: unless-stopped
