@@ -16,3 +16,9 @@ services:
       - 8190:80
       - 4001:4001 #optional
     restart: unless-stopped
+    networks:
+      - core_npm_hcinet
+
+networks:
+  core_npm_hcinet:
+    external: true
